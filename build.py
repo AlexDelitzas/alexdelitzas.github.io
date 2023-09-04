@@ -155,6 +155,16 @@ def get_index_html():
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={google_analytics_tracking_id}"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+
+    gtag('config', '{google_analytics_tracking_id}');
+    </script>
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -167,18 +177,6 @@ def get_index_html():
   <title>{name[0] + ' ' + name[1]} - {other_name[0] + ' ' + other_name[1]}</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
-
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={google_analytics_tracking_id}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-
-  gtag('config', '{google_analytics_tracking_id}');
-</script>
-
 
 <body>
     <div class="container">
