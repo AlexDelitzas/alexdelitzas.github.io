@@ -18,6 +18,7 @@ def get_personal_data():
                 
                 <p>For any inquiries, feel free to reach out!</p>
                 <p>
+                    <a href="assets/pdf/CV_Delitzas.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
                     <a href="mailto:alex.delitzas@gmail.com" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
                     <a href="https://twitter.com/AlexDelitzas" target="_blank" style="margin-right: 15px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
                     <a href="https://scholar.google.com/citations?user=1NH2hXoAAAAJ&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Scholar</a>
