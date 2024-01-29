@@ -43,6 +43,11 @@ def get_author_dict():
         'Panagiotis Petrantonakis': 'http://users.auth.gr/ppetrant/',
         'Andreas Symeonidis': 'https://issel.ee.auth.gr/en/staff/andreas-l-symeonidis/',
         'Kyriakos Chatzidimitriou': 'https://kyrcha.info',
+        'Ayca Takmaz': 'https://aycatakmaz.github.io/',
+        'Robert Sumner': 'https://studios.disneyresearch.com/people/bob-sumner/',
+        'Federico Tombari': 'https://federicotombari.github.io/',
+        'Marc Pollefeys': 'https://people.inf.ethz.ch/marc.pollefeys/',
+        'Francis Engelmann': 'https://francisengelmann.github.io/', 
     }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Alexandros Delitzas', add_links=True, equal_contribution=None):
