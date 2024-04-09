@@ -2,7 +2,7 @@
 
 This repository contains the python script to generate [my homepage](https://alexdelitzas.github.io/). 
 
-This webpage is based on the template provided by [Michael Niemeyer](https://github.com/m-niemeyer/m-niemeyer.github.io). I customized it to support equal contribution indications in the publications section and google analytics. Feel free to use this version or the original one!
+This webpage is based on the template provided by [Michael Niemeyer](https://github.com/m-niemeyer/m-niemeyer.github.io). I customized it to support a news section, equal contribution indications in the publications section and google analytics. Feel free to use this version or the original one!
 
 ## How to use
 1. Update and adjust the name and bio text in the function `get_personal_data` in the `build.py` file.
