@@ -1,5 +1,6 @@
 from re import I
 from pybtex.database.input import bibtex
+import json
 
 google_analytics_tracking_id = "G-93TTLCHNLY"
 
@@ -29,7 +30,7 @@ def get_personal_data():
             <div class="col-sm-12" style="">
                 <h5>Homepage Template</h5>
                 <p>
-                    This webpage is based on the template provided by <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">Michael Niemeyer</a>. I customized it to support equal contribution indications in the publications section and google analytics. Feel free to use this <a href="https://github.com/AlexDelitzas/alexdelitzas.github.io" target="_blank">version</a> or the <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">original</a> one!
+                    This webpage is based on the template provided by <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">Michael Niemeyer</a>. I customized it to support a news section, equal contribution indications in the publications section and google analytics. Feel free to use this <a href="https://github.com/AlexDelitzas/alexdelitzas.github.io" target="_blank">version</a> or the <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">original</a> one!
                 </p>
             </div>
     """
@@ -134,6 +135,22 @@ def get_talk_entry(entry_key, entry):
     s += """ </div> </div> </div>"""
     return s
 
+def get_news_html():
+    s = ""
+    with open('news.json') as news_data_file:
+        news_data = news_data_file.read()
+    parsed_news_data = json.loads(news_data)
+    print(parsed_news_data)
+    for i, cur_news_data in enumerate(parsed_news_data):
+        date = cur_news_data['date']
+        news_description = cur_news_data['news_description_html']
+        s += f"""<li style="margin-bottom: .3em;"><span style="font-weight: bold;">{date}</span>: {news_description}</li>"""
+
+        if i < len(parsed_news_data) - 1:
+            s += "\n\t\t\t\t\t"
+
+    return s
+
 def get_publications_html():
     parser = bibtex.Parser()
     bib_data = parser.parse_file('publication_list.bib')
@@ -153,6 +170,7 @@ def get_talks_html():
     return s
 
 def get_index_html():
+    news = get_news_html()
     pub = get_publications_html()
     talks = get_talks_html()
     name, other_name, bio_text, footer = get_personal_data()
@@ -198,7 +216,15 @@ def get_index_html():
                 <img src="assets/img/profile.jpg" class="img-thumbnail" width="280px" alt="Profile picture">
             </div>
         </div>
-        <div class="row" style="margin-top: 1em;">
+        <div class="row" style="margin-top: 2em;">
+            <div class="col-sm-12" style="">
+                <h4>News</h4>
+                <ul>
+                    {news}
+                </ul>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 3em;">
             <div class="col-sm-12" style="">
                 <h4>Publications</h4>
                 <h6>* indicates equal contribution</h6>

@@ -1,0 +1,14 @@
+[
+    {
+        "date": "Apr. 2024",
+        "news_description_html": "<a href=\"https://scenefun3d.github.io\" target=\"_blank\">SceneFun3D</a> was accepted at <a href=\"https://cvpr.thecvf.com\" target=\"_blank\">CVPR '24</a> in Seattle as an oral presentation."
+    },
+    {
+        "date": "Dec. 2023",
+        "news_description_html": "The second iteration of our <a href=\"https://opensun3d.github.io\" target=\"_blank\">Open-Vocabulary 3D Scene Understanding Workshop</a> will be held in conjunction with <a href=\"https://cvpr.thecvf.com\" target=\"_blank\">CVPR '24</a> in Seattle."
+    },
+    {
+        "date": "Oct. 2023",
+        "news_description_html": "<a href=\"https://arxiv.org/pdf/2306.02329.pdf\" target=\"_blank\">Multi-CLIP</a> was accepted at <a href=\"https://bmvc2023.org\" target=\"_blank\">BMVC '23</a> in Aberdeen as an oral presentation."
+    }
+]
