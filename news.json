@@ -1,7 +1,7 @@
 [
     {
         "date": "Apr. 2024",
-        "news_description_html": "<a href=\"https://scenefun3d.github.io\" target=\"_blank\">SceneFun3D</a> was accepted at <a href=\"https://cvpr.thecvf.com\" target=\"_blank\">CVPR '24</a> in Seattle as an oral presentation."
+        "news_description_html": "Our work <a href=\"https://scenefun3d.github.io\" target=\"_blank\">SceneFun3D</a> was accepted at <a href=\"https://cvpr.thecvf.com\" target=\"_blank\">CVPR '24</a> in Seattle as an oral presentation."
     },
     {
         "date": "Dec. 2023",
@@ -9,6 +9,6 @@
     },
     {
         "date": "Oct. 2023",
-        "news_description_html": "<a href=\"https://arxiv.org/pdf/2306.02329.pdf\" target=\"_blank\">Multi-CLIP</a> was accepted at <a href=\"https://bmvc2023.org\" target=\"_blank\">BMVC '23</a> in Aberdeen as an oral presentation."
+        "news_description_html": "Our work <a href=\"https://arxiv.org/pdf/2306.02329.pdf\" target=\"_blank\">Multi-CLIP</a> was accepted at <a href=\"https://bmvc2023.org\" target=\"_blank\">BMVC '23</a> in Aberdeen as an oral presentation."
     }
 ]
