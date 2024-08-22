@@ -8,7 +8,7 @@ def get_personal_data():
     name = ["Alexandros", "Delitzas"]
     other_name = ["Alex", "Delitzas"]
 
-    email = "alex.delitzas@gmail.com"
+    email = "alexandros.delitzas@inf.ethz.ch"
     twitter = "AlexDelitzas"
     github = "AlexDelitzas"
     bio_text = f"""
