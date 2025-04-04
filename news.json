@@ -1,7 +1,23 @@
 [
     {
+        "date": "Mar. 2025",
+        "news_description_html": "Our work <a href=\"https://openfungraph.github.io\" target=\"_blank\">OpenFunGraph</a> was accepted at <a href=\"https://cvpr.thecvf.com\" target=\"_blank\">CVPR '25</a> as a <b>Highlight</b>."
+    },
+    {
+        "date": "Jan. 2025",
+        "news_description_html": "Our work <a href=\"https://search3d-segmentation.github.io\" target=\"_blank\">Search3D</a> was accepted at <a href=\"https://www.ieee-ras.org/publications/ra-l\" target=\"_blank\">RA-L</a>."
+    },
+    {
+        "date": "Dec. 2024",
+        "news_description_html": "The fourth iteration of our <a href=\"https://opensun3d.github.io\" target=\"_blank\">Open-Vocabulary 3D Scene Understanding Workshop</a> will be held in conjunction with <a href=\"https://cvpr.thecvf.com\" target=\"_blank\">CVPR '25</a> in Nashville."
+    },
+    {
+        "date": "Sep. 2024",
+        "news_description_html": "I started my PhD at <a href=\"https://ethz.ch/en.html\" target=\"_blank\">ETH Zurich</a> and I joined the <a href=\"https://learning-systems.org\" target=\"_blank\">Max Planck ETH Center for Learning Systems</a> as a doctoral fellow."
+    },
+    {
         "date": "Apr. 2024",
-        "news_description_html": "Our work <a href=\"https://scenefun3d.github.io\" target=\"_blank\">SceneFun3D</a> was accepted at <a href=\"https://cvpr.thecvf.com\" target=\"_blank\">CVPR '24</a> in Seattle as an oral presentation."
+        "news_description_html": "Our work <a href=\"https://scenefun3d.github.io\" target=\"_blank\">SceneFun3D</a> was accepted at <a href=\"https://cvpr.thecvf.com\" target=\"_blank\">CVPR '24</a> in Seattle as an <b>Oral presentation</b>."
     },
     {
         "date": "Dec. 2023",
@@ -9,6 +25,6 @@
     },
     {
         "date": "Oct. 2023",
-        "news_description_html": "Our work <a href=\"https://arxiv.org/pdf/2306.02329.pdf\" target=\"_blank\">Multi-CLIP</a> was accepted at <a href=\"https://bmvc2023.org\" target=\"_blank\">BMVC '23</a> in Aberdeen as an oral presentation."
+        "news_description_html": "Our work <a href=\"https://arxiv.org/pdf/2306.02329.pdf\" target=\"_blank\">Multi-CLIP</a> was accepted at <a href=\"https://bmvc2023.org\" target=\"_blank\">BMVC '23</a> in Aberdeen as an <b>Oral presentation</b>."
     }
 ]

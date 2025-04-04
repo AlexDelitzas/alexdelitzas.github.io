@@ -11,16 +11,30 @@ def get_personal_data():
     email = "alexandros.delitzas@inf.ethz.ch"
     twitter = "AlexDelitzas"
     github = "AlexDelitzas"
-    bio_text = f"""
-                <p>I am an incoming PhD student at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a> and <a href="https://www.mpi-inf.mpg.de/" target="_blank">Max Planck Institute for Informatics</a>, advised by <a href="https://people.inf.ethz.ch/marc.pollefeys" target="_blank">Prof. Marc Pollefeys</a> (ETH) and <a href="https://people.mpi-inf.mpg.de/~theobalt" target="_blank">Prof. Christian Theobalt</a> (MPI), and supported by the <a href="https://learning-systems.org/" target="_blank">Max Planck ETH Center for Learning Systems</a> (CLS). I am interested in 3D Computer Vision, particularly in the areas of 3D scene understanding and generative modelling.</p>
-                <p>Currently, I am a Computer Science MSc student at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a> specializing in Machine Learning. I am conducting my master thesis on 3D scene understanding supervised by <a href="https://francisengelmann.github.io" target="_blank">Francis Engelmann</a> and <a href="https://people.inf.ethz.ch/marc.pollefeys" target="_blank">Prof. Marc Pollefeys</a>. Furthermore, I conducted a research project in collaboration with the <a href="https://da.inf.ethz.ch" target="_blank">Data Analytics Lab</a>, where I worked on the intersection of 2D/3D vision and natural language. In my semester thesis, I worked on diffusion models and 3D pose transfer supervised by <a href="https://ha0tang.github.io" target="_blank">Hao Tang</a>, <a href="https://www.informatik.uni-wuerzburg.de/computervision/home/" target="_blank">Prof. Radu Timofte</a> and <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en" target="_blank">Prof. Luc Van Gool</a>.</p> 
+    # bio_text = f"""
+    #             <p>I am an incoming PhD student at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a> and <a href="https://www.mpi-inf.mpg.de/" target="_blank">Max Planck Institute for Informatics</a>, advised by <a href="https://people.inf.ethz.ch/marc.pollefeys" target="_blank">Prof. Marc Pollefeys</a> (ETH) and <a href="https://people.mpi-inf.mpg.de/~theobalt" target="_blank">Prof. Christian Theobalt</a> (MPI), and supported by the <a href="https://learning-systems.org/" target="_blank">Max Planck ETH Center for Learning Systems</a> (CLS). I am interested in 3D Computer Vision, particularly in the areas of 3D scene understanding and generative modelling.</p>
+    #             <p>Currently, I am a Computer Science MSc student at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a> specializing in Machine Learning. I am conducting my master thesis on 3D scene understanding supervised by <a href="https://francisengelmann.github.io" target="_blank">Francis Engelmann</a> and <a href="https://people.inf.ethz.ch/marc.pollefeys" target="_blank">Prof. Marc Pollefeys</a>. Furthermore, I conducted a research project in collaboration with the <a href="https://da.inf.ethz.ch" target="_blank">Data Analytics Lab</a>, where I worked on the intersection of 2D/3D vision and natural language. In my semester thesis, I worked on diffusion models and 3D pose transfer supervised by <a href="https://ha0tang.github.io" target="_blank">Hao Tang</a>, <a href="https://www.informatik.uni-wuerzburg.de/computervision/home/" target="_blank">Prof. Radu Timofte</a> and <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en" target="_blank">Prof. Luc Van Gool</a>.</p> 
 
-                <p>Prior to that, I was an undergraduate student in Electrical and Computer Engineering at the <a href="https://www.auth.gr/en" target="_blank">Aristotle University of Thessaloniki</a>, where I worked with <a href="https://issel.ee.auth.gr/en/staff/andreas-l-symeonidis" target="_blank">Prof. Andreas Symeonidis</a> and <a href="http://users.auth.gr/ppetrant" target="_blank">Prof. Panagiotis Petrantonakis</a>.
+    #             <p>Prior to that, I was an undergraduate student in Electrical and Computer Engineering at the <a href="https://www.auth.gr/en" target="_blank">Aristotle University of Thessaloniki</a>, where I worked with <a href="https://issel.ee.auth.gr/en/staff/andreas-l-symeonidis" target="_blank">Prof. Andreas Symeonidis</a> and <a href="http://users.auth.gr/ppetrant" target="_blank">Prof. Panagiotis Petrantonakis</a>.
+                
+    #             <p>For any inquiries, feel free to reach out!</p>
+    #             <p>
+    #                 <a href="assets/pdf/CV_Delitzas.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
+    #                 <a href="mailto:alex.delitzas@gmail.com" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
+    #                 <a href="https://twitter.com/AlexDelitzas" target="_blank" style="margin-right: 15px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
+    #                 <a href="https://scholar.google.com/citations?user=1NH2hXoAAAAJ&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Scholar</a>
+    #                 <a href="https://github.com/AlexDelitzas" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> Github</a>
+    #             </p>
+    # """
+    bio_text = f"""
+                <p>I am a first-year PhD student at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a> and <a href="https://www.mpi-inf.mpg.de/" target="_blank">Max Planck Institute for Informatics</a>, advised by <a href="https://people.inf.ethz.ch/marc.pollefeys" target="_blank">Prof. Marc Pollefeys</a> (ETH) and <a href="https://people.mpi-inf.mpg.de/~theobalt" target="_blank">Prof. Christian Theobalt</a> (MPI), and supported by the <a href="https://learning-systems.org/" target="_blank">Max Planck ETH Center for Learning Systems</a> (CLS). I am interested in 3D Computer Vision, particularly in the areas of 3D/4D scene understanding and reconstruction.</p>
+                <p>Previously, I obtained my MSc in Computer Science at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a>, specializing in machine learning and computer vision. During my studies, I conducted research projects with the <a href="https://cvg.ethz.ch" target="_blank">Computer Vision and Geometry Group</a> led by <a href="https://people.inf.ethz.ch/marc.pollefeys" target="_blank">Prof. Marc Pollefeys</a>, the <a href="https://da.inf.ethz.ch" target="_blank">Data Analytics Lab</a> led by <a href="https://scholar.google.com/citations?user=T3hAyLkAAAAJ&hl=en" target="_blank">Prof. Thomas Hofmann</a> and the <a href="https://vision.ee.ethz.ch" target="_blank">Computer Vision Lab</a> led by <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en" target="_blank">Prof. Luc Van Gool</a>.</p> 
+
+                <p>Prior to that, I was an undergraduate student in Electrical and Computer Engineering at the <a href="https://www.auth.gr/en" target="_blank">Aristotle University of Thessaloniki</a>, where I worked with <a href="https://people.auth.gr/symeonid/?lang=en" target="_blank">Prof. Andreas Symeonidis</a> and <a href="https://ece.auth.gr/en/staff/panagiotis-petrantonakis/" target="_blank">Prof. Panagiotis Petrantonakis</a>.</p>
                 
                 <p>For any inquiries, feel free to reach out!</p>
                 <p>
-                    <a href="assets/pdf/CV_Delitzas.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
-                    <a href="mailto:alex.delitzas@gmail.com" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
+                    <a href="mailto:alexandros.delitzas@inf.ethz.ch" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
                     <a href="https://twitter.com/AlexDelitzas" target="_blank" style="margin-right: 15px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
                     <a href="https://scholar.google.com/citations?user=1NH2hXoAAAAJ&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Scholar</a>
                     <a href="https://github.com/AlexDelitzas" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> Github</a>
@@ -49,6 +63,10 @@ def get_author_dict():
         'Federico Tombari': 'https://federicotombari.github.io/',
         'Marc Pollefeys': 'https://people.inf.ethz.ch/marc.pollefeys/',
         'Francis Engelmann': 'https://francisengelmann.github.io/', 
+        'Chenyangguang Zhang': 'https://zhangcyg.github.io', 
+        'Fangjinhua Wang': 'https://fangjinhuawang.github.io',
+        'Johanna Wald': 'https://scholar.google.de/citations?user=dfjN3YAAAAAJ&hl=en',
+        'Maria Parelli': 'https://mparelli.github.io'
     }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Alexandros Delitzas', add_links=True, equal_contribution=None):
