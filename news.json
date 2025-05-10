@@ -1,5 +1,9 @@
 [
     {
+        "date": "May 2025",
+        "news_description_html": "I was recognized as outstanding reviewer for <a href=\"https://cvpr.thecvf.com/Conferences/2025/ProgramCommittee#all-outstanding-reviewer\" target=\"_blank\">CVPR '25</a>."
+    },
+    {
         "date": "Mar. 2025",
         "news_description_html": "Our work <a href=\"https://openfungraph.github.io\" target=\"_blank\">OpenFunGraph</a> was accepted at <a href=\"https://cvpr.thecvf.com\" target=\"_blank\">CVPR '25</a> as a <b>Highlight</b>."
     },
