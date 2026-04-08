@@ -1,5 +1,13 @@
 [
     {
+        "date": "Feb. 2026",
+        "news_description_html": "Our work <a href=\"https://functionalscenes.github.io\" target=\"_blank\">FunREC</a> was accepted at <a href=\"https://cvpr.thecvf.com\" target=\"_blank\">CVPR '26</a> in Denver."
+    },
+    {
+        "date": "Jan. 2026",
+        "news_description_html": "Our work <a href=\"https://react3d.github.io\" target=\"_blank\">REACT3D</a> was accepted at <a href=\"https://www.ieee-ras.org/publications/ra-l\" target=\"_blank\">RA-L</a>."
+    },
+    {
         "date": "May 2025",
         "news_description_html": "I was recognized as outstanding reviewer for <a href=\"https://cvpr.thecvf.com/Conferences/2025/ProgramCommittee#all-outstanding-reviewer\" target=\"_blank\">CVPR '25</a>."
     },
